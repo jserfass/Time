@@ -48,13 +48,12 @@ var config = {
                 pitch: 64,
                 bearing: -40.8,
             },
-            onChapterEnter: [],
+            onChapterEnter: [
+                {layer: 'whitehouse-3fgyw1', opacity: .99},
+                ],
             onChapterExit: [
-                // {
-                //     layer: 'gnpglaciers-2015',
-                 //    opacity: 0
-                // }
-            ]
+                {layer: 'whitehouse-3fgyw1', opacity: 0},
+                ],
         },
         {
             id: 'firstcoupe',
@@ -87,8 +86,12 @@ var config = {
                 pitch: 64,
                 bearing: -40.8,
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {layer: 'whitehouse-3fgyw1', opacity: .99},
+                ],
+            onChapterExit: [
+                {layer: 'whitehouse-3fgyw1', opacity: 0},
+                ],
         },
         {
             id: 'The Second coup attempt',
@@ -135,16 +138,18 @@ var config = {
             image: 'pictures/joint.jpg',
             description: "Four U.S. military officers were halted at a roadblock near the Panama Defense Forces (PDF) headquarters in the El Chorrillo district of Panama City. Marine Captain Richard E. Hadded, Navy Lieutenant Michael J. Wilson, Army Captain Barry L. Rainwater, and Marine First Lieutenant Robert Paz had departed the U.S. base at Fort Clayton, intending to dine at the Marriott Caesar Park Hotel in downtown Panama City. The Department of Defense stated that these servicemen were not armed, were traveling in a personal vehicle, and tried to escape only after they found themselves encircled by an agitated group of civilians and PDF soldiers. Contrarily, the PDF later insisted that the Americans were armed and on an intelligence-gathering mission.",
             location: {
-                center: [-79.54439, 8.95112],
-                zoom: 17.93,
-                pitch: 82.00,
-                bearing: -20.51
+                center: [-79.52465, 8.98234],
+                zoom: 16.5,
+                pitch: 68.50,
+                bearing: -9.60
             },
             onChapterEnter: [
-                {layer: 'boundaries-3lwule', opacity: .7},
+                {layer: 'boundaries-3lwule', opacity: .5},
+                {layer: 'marriott-2e5vjf', opacity: .9},
                 ],
             onChapterExit: [
                 {layer: 'boundaries-3lwule', opacity: 0},
+                {layer: 'marriott-2e5vjf', opacity: 0},
                 ],
         },
         {
@@ -156,11 +161,15 @@ var config = {
             location: {
                 center: [-77.05856, 38.87081],
                 zoom: 16.60,
-                pitch: 71.50,
+                pitch: 55,
                 bearing: -9.31
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {layer: 'pentagon-469vuo', opacity: .99},
+                ],
+            onChapterExit: [
+                {layer: 'pentagon-469vuo', opacity: 0},
+                ],
         },
         {
             id: 'The Military Incursion into Panama',
@@ -354,7 +363,7 @@ var config = {
             location: {
                 center: [-79.50862, 8.98672],
                 zoom: 16.15,
-                pitch: 73.50,
+                pitch: 50,
                 bearing: -31.20
             },
             onChapterEnter: [
@@ -364,7 +373,7 @@ var config = {
                 {layer: 'airplanes-41eu5i', opacity: .9},
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
-                {layer: 'boundaries-3lwule', opacity: .7},
+                {layer: 'boundaries-3lwule', opacity: .5},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
@@ -446,7 +455,7 @@ var config = {
             description: "On Wednesday, the upscale Marriott Hotel was effectively turned into a detention center as armed paramilitary forces conducted several raids, specifically targeting Americans to be held as hostages and threatening to seize more. Members of the U.S. 82nd Airborne Division reached the hotel at 11:22 p.m. EST to rescue the guests confined within. Around 30 to 40 individuals were trapped in the hotel at the time. The division's arrival was supported by overhead cover and light gunfire. The operation was completed by 12:30 a.m. EST on December 21, and all the hostages were freed. The U.S. military reported that one American was killed and another was wounded during the rescue operation. The Panamanian government stated that three PDF soldiers were killed and one was wounded.",
             location: {
                 center: [-79.52465, 8.98234],
-                zoom: 18.49,
+                zoom: 16,
                 pitch: 68.50,
                 bearing: -9.60
             },
@@ -458,6 +467,7 @@ var config = {
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
                 {layer: 'boundaries-3lwule', opacity: .7},
+                {layer: 'marriott-2e5vjf', opacity: .9},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
@@ -467,6 +477,7 @@ var config = {
                 {layer: 'invasionlines-6inaev', opacity: 0},
                 {layer: 'battlelines-dpp6ne', opacity: 0},
                 {layer: 'boundaries-3lwule', opacity: 0},
+                {layer: 'marriott-2e5vjf', opacity: 0},
                 ],
         },
         {
@@ -478,11 +489,15 @@ var config = {
             location: {
                 center: [-73.96703, 40.75061],
                 zoom: 16.74,
-                pitch: 75.00,
+                pitch: 60,
                 bearing: -8.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {layer: 'un-4evzzk', opacity: .99},
+                ],
+            onChapterExit: [
+                {layer: 'un-4evzzk', opacity: 0},
+                ],
         },
         {
             id: 'Noriega Surrendered To The U.S. Military',
@@ -503,7 +518,7 @@ var config = {
                 {layer: 'airplanes-41eu5i', opacity: .9},
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
-                {layer: 'boundaries-3lwule', opacity: .7},
+                {layer: 'boundaries-3lwule', opacity: .5},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
@@ -527,8 +542,12 @@ var config = {
                 pitch: 62.50,
                 bearing: -26.40
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {layer: 'pentagon-469vuo', opacity: .99},
+                ],
+            onChapterExit: [
+                {layer: 'pentagon-469vuo', opacity: 0},
+                ],
         },
     ]
 };
