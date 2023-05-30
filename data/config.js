@@ -39,7 +39,7 @@ var config = {
         {
             id: 'Torrijos Carter Treaties',
             alignment: 'left',
-            title: 'Torrijos–Carter Treaties',
+            title: 'Torrijos–Carter Treaties: Washington, D.C., U.S. Wednesday Sep 7, 1977',
             image: 'pictures/Carter.jpg',
             description: "On September 7, 1977, U.S. President Jimmy Carter and the de facto leader of Panama, General Omar Torrijos, signed Torrijos–Carter Treaties, which set in motion the process of handing over the Panama Canal to Panamanian control by 2000. Although the canal was destined for Panamanian administration, the military bases remained and one condition of the transfer was that the canal would remain open for American shipping. The U.S. had long-standing relations with General Noriega, who served as a U.S. intelligence asset and paid informant of the Central Intelligence Agency from 1967, including the period when Bush was head of the CIA (1976–77).",
             location: {
@@ -58,7 +58,7 @@ var config = {
         {
             id: 'firstcoupe',
             alignment: 'right',
-            title: 'The The First Coup Attempt',
+            title: 'The The First Coup Attempt: Panama. Wednesday Mar 16, 1988',
             image: 'pictures/Panama.png',
             description: "In March 1988, forces loyal to Noriega successfully thwarted an attempted overthrow of the Panamanian government. As the relationship further soured, Noriega seemed to change his Cold War loyalties towards the Soviet bloc, reaching out for and receiving military support from Cuba, Nicaragua, and Libya. This shift triggered the American military strategists to start devising potential plans for an invasion of Panama.",
             location: {
@@ -77,7 +77,7 @@ var config = {
         {
             id: 'Operation Nimrod Dancer',
             alignment: 'left',
-            title: 'Operation Nimrod Dancer',
+            title: 'Operation Nimrod Dancer: The White House, Washington DC, US. Thursday May 11, 1989',
             image: 'pictures/Bush.jpg',
             description: "President George H.W. Bush ordered an additional 1,900 combat troops to Panama to increase security of American personnel and property, known as Operation Nimrod Dancer. This was designed to put further pressure on Noriega and help secure U.S. interests, including the Panama Canal and American citizens residing in Panama. Nimrod Dancer involved reinforcing U.S. Southern Command troops already stationed in the Canal Zone, primarily through the addition of combat-ready military units.",
             location: {
@@ -96,7 +96,7 @@ var config = {
         {
             id: 'The Second coup attempt',
             alignment: 'right',
-            title: 'The Second Coup Attempt',
+            title: 'The Second Coup Attempt: Panama City, Panama. Tuesday Oct 3, 1989',
             image: 'pictures/noriega.jpg',
             description: "In October 1989, Noriega foiled a second coup attempt by members of the Panamanian Defense Forces (PDF), led by Major Moisés Giroldi. American sources contended that the coup's failure was due to the rebels' inadequate planning, lack of clear communication with the U.S., and uncertainty from the American side about the insurgents' objectives and intentions. The Bush administration faced bipartisan criticism in the United States Senate for how it handled and responded to the coup. Democratic senator Sam Nunn, along with other senators, accused officials from the Bush administration of dishonesty and withholding information from the Senate.",
             location: {
@@ -115,7 +115,7 @@ var config = {
         {
             id: 'Panama Declares War',
             alignment: 'left',
-            title: 'Panama Declares War',
+            title: 'Panama Declares War: Washington, D.C., U.S. Friday Dec 15, 1989',
             image: 'pictures/punch.jpg',
             description: "The scrutiny on Bush intensified. He stated that the U.S. would not engage in negotiations with someone involved in drug trafficking and denied being aware of Noriega's drug-related activities before his indictment in February 1988. However, this claim was under scrutiny as Bush had met Noriega during his tenure as the Director of the CIA and had also served as the Chair of the Task Force on Drugs when he was Vice President. On December 15, the Panamanian legislature adopted a resolution proclaiming that a state of war was in effect between Panama and the United States.",
             location: {
@@ -134,9 +134,9 @@ var config = {
         {
             id: 'Stopping Four U.S. Military Personnel',
             alignment: 'right',
-            title: 'Stopping Four U.S. Military Personnel',
+            title: 'The Assault of U.S. Military Personnel: El Chorrillo, Panama. Saturday Dec 16, 1989 - 09:00:00 PM',
             image: 'pictures/joint.jpg',
-            description: "Four U.S. military officers were halted at a roadblock near the Panama Defense Forces (PDF) headquarters in the El Chorrillo district of Panama City. Marine Captain Richard E. Hadded, Navy Lieutenant Michael J. Wilson, Army Captain Barry L. Rainwater, and Marine First Lieutenant Robert Paz had departed the U.S. base at Fort Clayton, intending to dine at the Marriott Caesar Park Hotel in downtown Panama City. The Department of Defense stated that these servicemen were not armed, were traveling in a personal vehicle, and tried to escape only after they found themselves encircled by an agitated group of civilians and PDF soldiers. Contrarily, the PDF later insisted that the Americans were armed and on an intelligence-gathering mission.",
+            description: "On the evening after the declaration of war, around 9:00 p.m., a group of four American military officers was intercepted at a barricade near the PDF base in Panama City's El Chorrillo district. The officers included Marine Captain Richard E. Hadded, Navy Lieutenant Michael J. Wilson, Army Captain Barry L. Rainwater, and Marine First Lieutenant Robert Paz. They were heading to dinner at the Marriott Caesar Park Hotel in Panama City's city center from the U.S. Fort Clayton base. The PDF initiated gunfire, and Paz was fatally hit by a bullet that pierced the vehicle's rear and struck his back. Hadded, who was driving the vehicle, also sustained a foot injury. Despite being quickly transported to Gorgas Army Hospital, Paz succumbed to his injuries and was posthumously awarded the Purple Heart.",
             location: {
                 center: [-79.52465, 8.98234],
                 zoom: 16.5,
@@ -155,7 +155,7 @@ var config = {
         {
             id: 'Bush Greenlights Invasion',
             alignment: 'left',
-            title: 'Bush Greenlights Invasion',
+            title: 'Bush Greenlights Invasion: Washington, D.C., U.S. Sunday Dec 17, 1989 - 01 AM',
             image: 'pictures/pentagon.jpg',
             description: "The next day, Bush ordered the execution of the Panama invasion plan; the military set H-Hour as 0100 on December 20.On the morning of December 20, 1989, a few hours after the start of the operation. Bush cited Panama's declaration of a state of war with the United States and attacks on U.S. troops as justification for the invasion.",
             location: {
@@ -174,7 +174,7 @@ var config = {
         {
             id: 'The Military Incursion into Panama',
             alignment: 'right',
-            title: 'The Military Incursion into Panama',
+            title: 'The Military Incursion into Panama: Panama. Tuesday Dec 19, 1989 - 01 AM',
             image: 'pictures/Christmas.jpg',
             hidden: false,
             description: "The U.S. launched its invasion of Panama on December 20, 1989, initiating the operation at 12:46 a.m. local time. This extensive mission involved the deployment of 27,684 American military personnel and more than 300 aircraft. These included C-130 Hercules tactical transports manned by the 317th Tactical Airlift Wing (outfitted with the Adverse Weather Aerial Delivery System or AWADS) and the 314th Tactical Airlift Wing, AC-130 Spectre gunships, OA-37B Dragonfly reconnaissance and attack aircraft, C-141 Starlifter and C-5 Galaxy strategic transporters, F-117A Nighthawk stealth attack aircraft operated by the 37th Tactical Fighter Wing, and AH-64 Apache assault helicopters. The invasion marked the initial combat deployment for the AH-64, the HMMWV, and the F-117A. Two EF-111As electronic warfare aircraft from the 390th ECS, 366th TFW, were employed to jam the Panamanian radar units. These aircraft were set against the 16,000-strong Panama Defense Forces or PDF.",
@@ -198,7 +198,7 @@ var config = {
         {
             id: 'Task Force Atlantic',
             alignment: 'left',
-            title: 'Task Force Atlantic',
+            title: 'Task Force Atlantic: Panama. Wednesday Dec 20, 1989',
             image: 'pictures/Units.png',
             hidden: false,
             description: "",
@@ -230,7 +230,7 @@ var config = {
         {
             id: 'Task Force Semper Fidelis',
             alignment: 'left',
-            title: 'Task Force Semper Fidelis',
+            title: 'Task Force Semper Fidelis: Panama. Wednesday Dec 20, 1989',
             image: 'pictures/Units.png',
             hidden: false,
             description: "",
@@ -262,7 +262,7 @@ var config = {
         {
             id: 'Task Force Bayonet',
             alignment: 'left',
-            title: 'Task Force Bayonet',
+            title: 'Task Force Bayonet: Panama. Wednesday Dec 20, 1989',
             image: 'pictures/Units.png',
             hidden: false,
             description: "",
@@ -294,7 +294,7 @@ var config = {
         {
             id: 'Task Force 82nd Airborne',
             alignment: 'right',
-            title: 'Task Force 82nd Airborne',
+            title: 'Task Force 82nd Airborne: Panama. Wednesday Dec 20, 1989',
             image: 'pictures/Units.png',
             hidden: false,
             description: "",
@@ -326,7 +326,7 @@ var config = {
         {
             id: 'Securing Pacora River Bridge',
             alignment: 'left',
-            title: 'Securing Pacora River Bridge',
+            title: 'Securing Pacora River Bridge: Pacora River Bridge, Panama. Wednesday Dec 20, 1989',
             image: 'pictures/bridge.jpg',
             description: "Elements of 1st and 3rd Bn, 7th Special Forces Group (Airborne) conducted air assault and secured Pacora River Bridge preventing PDF reinforcements from reaching Omar Torrijos Airport and Panama City.",
             location: {
@@ -357,7 +357,7 @@ var config = {
         {
             id: 'Operation Nifty Package',
             alignment: 'right',
-            title: 'Operation Nifty Package Part 1',
+            title: 'Operation Nifty Package Part 1: Panama City, Panama. Wednesday Dec 20, 1989',
             image: 'pictures/NoFace.jpg',
             description: "Operation Nifty Package involved SEAL Team 4. Their mission was to prevent Noriega's potential escape by sea by destroying his private jet and gunboat, located at the Paitilla airport. The operation faced resistance, and four SEALs were killed, but they succeeded in sinking Noriega's boat and damaging his plane. Controversey surrounded the operation as the SEALs were forced to change tactics and use explosives to destroy the plane, which was parked in a hangar, rather than using a sniper rifle to shoot the fuel tank, as originally planned.",
             location: {
@@ -373,7 +373,7 @@ var config = {
                 {layer: 'airplanes-41eu5i', opacity: .9},
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
-                {layer: 'boundaries-3lwule', opacity: .5},
+                {layer: 'boundaries-3lwule', opacity: .7},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
@@ -388,7 +388,7 @@ var config = {
         {
             id: 'Operations in Colon City',
             alignment: 'left',
-            title: 'Operations in Colon City',
+            title: 'Operations in Colon City: Colón, Panama. Wednesday Dec 20, 1989',
             image: 'pictures/7th.jpg',
             description: "3d Bde, 7th Infantry Division (L) (4/17th Inf) began operations in Colon City, the Canal Zone, and Panama City.",
             location: {
@@ -419,7 +419,7 @@ var config = {
         {
             id: 'Raid at Renacer Prison',
             alignment: 'right',
-            title: 'Raid at Renacer Prison',
+            title: 'Raid at Renacer Prison: Gamboa, Panama. Wednesday Dec 20, 1989',
             image: 'pictures/82nd.jpg',
             description: "The El Renacer prison in Gamboa, Panama, was the target of an attack by the 82nd Airborne Division of the U.S. Army on December 20, 1989, amidst the U.S. invasion of Panama. The raid resulted in the liberation of the sixty-four prisoners confined in the prison and the death of 5 soldiers from the Panama Defense Forces.",
             location: {
@@ -450,7 +450,7 @@ var config = {
         {
             id: 'Marriott hostages',
             alignment: 'left',
-            title: 'Marriott hostages',
+            title: 'Marriott hostages: Panama City, Panama. Thursday Dec 21, 1989',
             image: 'pictures/marriott.jpg',
             description: "On Wednesday, the upscale Marriott Hotel was effectively turned into a detention center as armed paramilitary forces conducted several raids, specifically targeting Americans to be held as hostages and threatening to seize more. Members of the U.S. 82nd Airborne Division reached the hotel at 11:22 p.m. EST to rescue the guests confined within. Around 30 to 40 individuals were trapped in the hotel at the time. The division's arrival was supported by overhead cover and light gunfire. The operation was completed by 12:30 a.m. EST on December 21, and all the hostages were freed. The U.S. military reported that one American was killed and another was wounded during the rescue operation. The Panamanian government stated that three PDF soldiers were killed and one was wounded.",
             location: {
@@ -483,7 +483,7 @@ var config = {
         {
             id: 'the General Assembly of the United Nations',
             alignment: 'right',
-            title: 'The General Assembly of the United Nations',
+            title: 'The General Assembly of the United Nations: New York, U.S. Friday Dec 29, 1989',
             image: 'pictures/kids.jpg',
             description: "On December 29, the United Nations General Assembly cast a vote regarding the invasion, with a result of 75–20, and 40 abstentions. The assembly strongly condemned the invasion, declaring it as a clear infringement of international law.",
             location: {
@@ -502,7 +502,7 @@ var config = {
         {
             id: 'Noriega Surrendered To The U.S. Military',
             alignment: 'left',
-            title: 'Noriega Surrenders - Operation Nifty Package Part 2',
+            title: 'Noriega Surrenders - Operation Nifty Package Part 2: Panama City, Panama. Wednesday Jan 3, 1990',
             image: 'pictures/capture.jpg',
             description: "Operation Nifty Package relied on America's two elite special operations units: United States Delta Force and Navy SEAL Team 6. The main objective of this mission was to capture Panama's de facto leader, General Manuel Noriega. <br></br> When Operation Just Cause began on December 20, 1989, one of its primary targets was the Panama Defense Forces (PDF) headquarters in La Comandancia, where Noriega was believed to be hiding. However, Noriega managed to escape during the confusion.<br></br>After escaping La Comandancia, Noriega found refuge in the Apostolic Nunciature of the Holy See (essentially, the Vatican's embassy) on December 24. U.S. troops quickly surrounded the Nunciature to prevent his escape. Psychological warfare tactics were used to coax him out, famously including the use of loud rock-and-roll music. Finally, on January 3, 1990, Noriega surrendered to the U.S. forces, marking the successful completion of Operation Nifty Package. He was then transported to the United States, where he was tried and convicted on multiple criminal charges.",
             location: {
@@ -533,7 +533,7 @@ var config = {
         {
             id: 'Operation Promote Liberty',
             alignment: 'right',
-            title: 'Operation Promote Liberty',
+            title: 'Operation Promote Liberty: The Pentagon. Wednesday Jan 31, 1990',
             image: 'pictures/pentagon.avif',
             description: "The aim of Operation Promote Liberty was to create a secure environment for the restructuring and stabilization of Panama after the overthrow of Manuel Noriega following the aforementioned events of Operation Just Cause. The operation marked an important shift in U.S. military strategy, illustrating the value of using military forces to support reconstruction and stabilization efforts after major combat operations.",
             location: {
@@ -546,7 +546,7 @@ var config = {
                 {layer: 'pentagon-469vuo', opacity: .99},
                 ],
             onChapterExit: [
-                {layer: 'pentagon-469vuo', opacity: 0},
+                {layer: 'pentagon-469vuo', opacity: .99},
                 ],
         },
     ]
