@@ -43,10 +43,10 @@ var config = {
             image: 'pictures/Carter.jpg',
             description: "On September 7, 1977, U.S. President Jimmy Carter and the de facto leader of Panama, General Omar Torrijos, signed Torrijos–Carter Treaties, which set in motion the process of handing over the Panama Canal to Panamanian control by 2000. Although the canal was destined for Panamanian administration, the military bases remained and one condition of the transfer was that the canal would remain open for American shipping. The U.S. had long-standing relations with General Noriega, who served as a U.S. intelligence asset and paid informant of the Central Intelligence Agency from 1967, including the period when Bush was head of the CIA (1976–77).",
             location: {
-                center: [-77.03707, 38.89759],
-                zoom: 19,
-                pitch: 64,
-                bearing: -40.8,
+                center: [-77.03789, 38.89793],
+                zoom: 17.52,
+                pitch: 78.50,
+                bearing: -38.40
             },
             onChapterEnter: [
                 {layer: 'whitehouse-3fgyw1', opacity: .99},
@@ -81,10 +81,10 @@ var config = {
             image: 'pictures/Bush.jpg',
             description: "President George H.W. Bush ordered an additional 1,900 combat troops to Panama to increase security of American personnel and property, known as Operation Nimrod Dancer. This was designed to put further pressure on Noriega and help secure U.S. interests, including the Panama Canal and American citizens residing in Panama. Nimrod Dancer involved reinforcing U.S. Southern Command troops already stationed in the Canal Zone, primarily through the addition of combat-ready military units.",
             location: {
-                center: [-77.03707, 38.89759],
-                zoom: 19,
-                pitch: 64,
-                bearing: -40.8,
+                center: [-77.03789, 38.89793],
+                zoom: 17.52,
+                pitch: 78.50,
+                bearing: -38.40
             },
             onChapterEnter: [
                 {layer: 'whitehouse-3fgyw1', opacity: .99},
@@ -159,10 +159,10 @@ var config = {
             image: 'pictures/pentagon.jpg',
             description: "The next day, Bush ordered the execution of the Panama invasion plan; the military set H-Hour as 0100 on December 20.On the morning of December 20, 1989, a few hours after the start of the operation. Bush cited Panama's declaration of a state of war with the United States and attacks on U.S. troops as justification for the invasion.",
             location: {
-                center: [-77.05856, 38.87081],
-                zoom: 16.60,
-                pitch: 55,
-                bearing: -9.31
+                center: [-77.05784, 38.87276],
+                zoom: 16.22,
+                pitch: 63.50,
+                bearing: 24.00
             },
             onChapterEnter: [
                 {layer: 'pentagon-469vuo', opacity: .99},
@@ -204,7 +204,7 @@ var config = {
             description: "",
             location: {
                 center: [-79.88944, 9.21323],
-                zoom: 10.86,
+                zoom: 10.75,
                 pitch: 5.00,
                 bearing: 0.00
             },
@@ -236,7 +236,7 @@ var config = {
             description: "",
             location: {
                 center: [-79.66951, 8.93086],
-                zoom: 12.20,
+                zoom: 12,
                 pitch: 5.00,
                 bearing: 0.00
             },
@@ -370,7 +370,6 @@ var config = {
                 {layer: 'units-5ze0av', opacity: .9},
                 {layer: 'attackpoints-7ozk3z', opacity: .9},
                 {layer: 'parachutes-4u2c4j', opacity: .9},
-                {layer: 'airplanes-41eu5i', opacity: .9},
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
                 {layer: 'boundaries-3lwule', opacity: .7},
@@ -379,7 +378,6 @@ var config = {
                 {layer: 'units-5ze0av', opacity: 0},
                 {layer: 'attackpoints-7ozk3z', opacity: 0},
                 {layer: 'parachutes-4u2c4j', opacity: 0},
-                {layer: 'airplanes-41eu5i', opacity: 0},
                 {layer: 'invasionlines-6inaev', opacity: 0},
                 {layer: 'battlelines-dpp6ne', opacity: 0},
                 {layer: 'boundaries-3lwule', opacity: 0},
@@ -487,10 +485,10 @@ var config = {
             image: 'pictures/kids.jpg',
             description: "On December 29, the United Nations General Assembly cast a vote regarding the invasion, with a result of 75–20, and 40 abstentions. The assembly strongly condemned the invasion, declaring it as a clear infringement of international law.",
             location: {
-                center: [-73.96703, 40.75061],
-                zoom: 16.74,
-                pitch: 60,
-                bearing: -8.00
+                center: [-73.96582, 40.75252],
+                zoom: 16,
+                pitch: 73.50,
+                bearing: 0.00
             },
             onChapterEnter: [
                 {layer: 'un-4evzzk', opacity: .99},
@@ -537,10 +535,10 @@ var config = {
             image: 'pictures/pentagon.avif',
             description: "The aim of Operation Promote Liberty was to create a secure environment for the restructuring and stabilization of Panama after the overthrow of Manuel Noriega following the aforementioned events of Operation Just Cause. The operation marked an important shift in U.S. military strategy, illustrating the value of using military forces to support reconstruction and stabilization efforts after major combat operations.",
             location: {
-                center: [-77.05400, 38.87198],
-                zoom: 16.61,
-                pitch: 62.50,
-                bearing: -26.40
+                center: [-77.05428, 38.87332],
+                zoom: 15.90,
+                pitch: 56.50,
+                bearing: -41.00
             },
             onChapterEnter: [
                 {layer: 'pentagon-469vuo', opacity: .99},

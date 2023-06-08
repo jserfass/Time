@@ -173,13 +173,13 @@ map.on("load", function() {
     scroller
     .setup({
         step: '.step',
-        offset: 0.5,
+        offset: 0.7,
         progress: true
     })
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        map[chapter.mapAnimation || 'easeTo'](chapter.location);
 
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
