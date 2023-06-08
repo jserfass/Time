@@ -362,25 +362,27 @@ var config = {
             description: "Operation Nifty Package involved SEAL Team 4. Their mission was to prevent Noriega's potential escape by sea by destroying his private jet and gunboat, located at the Paitilla airport. The operation faced resistance, and four SEALs were killed, but they succeeded in sinking Noriega's boat and damaging his plane. Controversey surrounded the operation as the SEALs were forced to change tactics and use explosives to destroy the plane, which was parked in a hangar, rather than using a sniper rifle to shoot the fuel tank, as originally planned.",
             location: {
                 center: [-79.50862, 8.98672],
-                zoom: 16.15,
-                pitch: 50,
+                zoom: 15.5,
+                pitch: 70,
                 bearing: -31.20
             },
             onChapterEnter: [
                 {layer: 'units-5ze0av', opacity: .9},
-                {layer: 'attackpoints-7ozk3z', opacity: .9},
                 {layer: 'parachutes-4u2c4j', opacity: .9},
+                {layer: 'attackpoints-7ozk3z', opacity: .9},
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
                 {layer: 'boundaries-3lwule', opacity: .7},
+                {layer: 'Paitilla', opacity: .99},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
-                {layer: 'attackpoints-7ozk3z', opacity: 0},
                 {layer: 'parachutes-4u2c4j', opacity: 0},
+                {layer: 'attackpoints-7ozk3z', opacity: 0},
                 {layer: 'invasionlines-6inaev', opacity: 0},
                 {layer: 'battlelines-dpp6ne', opacity: 0},
                 {layer: 'boundaries-3lwule', opacity: 0},
+                {layer: 'Paitilla', opacity: 0},
                 ],
         },
         {
@@ -504,10 +506,10 @@ var config = {
             image: 'pictures/capture.jpg',
             description: "Operation Nifty Package relied on America's two elite special operations units: United States Delta Force and Navy SEAL Team 6. The main objective of this mission was to capture Panama's de facto leader, General Manuel Noriega. <br></br> When Operation Just Cause began on December 20, 1989, one of its primary targets was the Panama Defense Forces (PDF) headquarters in La Comandancia, where Noriega was believed to be hiding. However, Noriega managed to escape during the confusion.<br></br>After escaping La Comandancia, Noriega found refuge in the Apostolic Nunciature of the Holy See (essentially, the Vatican's embassy) on December 24. U.S. troops quickly surrounded the Nunciature to prevent his escape. Psychological warfare tactics were used to coax him out, famously including the use of loud rock-and-roll music. Finally, on January 3, 1990, Noriega surrendered to the U.S. forces, marking the successful completion of Operation Nifty Package. He was then transported to the United States, where he was tried and convicted on multiple criminal charges.",
             location: {
-                center: [-79.55726, 8.99683],
-                zoom: 16.75,
-                pitch: 70.50,
-                bearing: 20.00
+                center: [-79.55666, 8.99489],
+                zoom: 17.35,
+                pitch: 74.63,
+                bearing: 60.52
             },
             onChapterEnter: [
                 {layer: 'units-5ze0av', opacity: .9},
@@ -517,6 +519,7 @@ var config = {
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
                 {layer: 'boundaries-3lwule', opacity: .5},
+                {layer: 'Nunciatara', opacity: .99},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
@@ -526,6 +529,7 @@ var config = {
                 {layer: 'invasionlines-6inaev', opacity: 0},
                 {layer: 'battlelines-dpp6ne', opacity: 0},
                 {layer: 'boundaries-3lwule', opacity: 0},
+                {layer: 'Nunciatara', opacity: .99},
                 ],
         },
         {

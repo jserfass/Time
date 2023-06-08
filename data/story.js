@@ -166,7 +166,36 @@ map.on("load", function() {
                 'sky-atmosphere-sun-intensity': 15
             }
         });
-        
+        map.addSource('Nunciatara', {
+            type: 'geojson',
+            data: 'data/Nunciatara.geojson'
+            });
+        map.addLayer({
+            'id': 'Nunciatara',
+            'source': 'Nunciatara',
+            'type': 'fill-extrusion',
+            'paint': {
+                'fill-extrusion-color': 'red',
+                'fill-extrusion-height': ['get', 'Height'], // 'height' should be the name of the property that contains height information
+                'fill-extrusion-base': 0,
+                'fill-extrusion-opacity': 0.6
+            }
+           });   
+        map.addSource('Paitilla', {
+            type: 'geojson',
+            data: 'data/Paitilla.geojson'
+          });
+        map.addLayer({
+            'id': 'Paitilla',
+            'source': 'Paitilla',
+            'type': 'fill-extrusion',
+            'paint': {
+                'fill-extrusion-color': 'red',
+                'fill-extrusion-height': ['get', 'Height'], // 'height' should be the name of the property that contains height information
+                'fill-extrusion-base': 0,
+                'fill-extrusion-opacity': 0.99
+            }
+        });       
     };
 
     // setup the instance, pass callback functions
