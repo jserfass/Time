@@ -452,10 +452,10 @@ var config = {
             image: 'pictures/marriott.jpg',
             description: "On Wednesday, the upscale Marriott Hotel was effectively turned into a detention center as armed paramilitary forces conducted several raids, specifically targeting Americans to be held as hostages and threatening to seize more. Members of the U.S. 82nd Airborne Division reached the hotel at 11:22 p.m. EST to rescue the guests confined within. Around 30 to 40 individuals were trapped in the hotel at the time. The division's arrival was supported by overhead cover and light gunfire. The operation was completed by 12:30 a.m. EST on December 21, and all the hostages were freed. The U.S. military reported that one American was killed and another was wounded during the rescue operation. The Panamanian government stated that three PDF soldiers were killed and one was wounded.",
             location: {
-                center: [-79.52465, 8.98234],
-                zoom: 16,
-                pitch: 68.50,
-                bearing: -9.60
+                center: [-79.52588, 8.98224],
+                zoom: 16.25,
+                pitch: 70,
+                bearing: -26.40
             },
             onChapterEnter: [
                 {layer: 'units-5ze0av', opacity: .9},
@@ -465,7 +465,7 @@ var config = {
                 {layer: 'invasionlines-6inaev', opacity: .9},
                 {layer: 'battlelines-dpp6ne', opacity: .9},
                 {layer: 'boundaries-3lwule', opacity: .7},
-                {layer: 'marriott-2e5vjf', opacity: .9},
+                {layer: 'marriott-2e5vjf', opacity: .99},
                 ],
             onChapterExit: [
                 {layer: 'units-5ze0av', opacity: 0},
