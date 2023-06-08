@@ -300,7 +300,7 @@ var config = {
             description: "",
             location: {
                 center: [-79.38631, 9.04324],
-                zoom: 11.65,
+                zoom: 11.5,
                 pitch: 8.11,
                 bearing: 0.00
             },
